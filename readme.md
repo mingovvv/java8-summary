@@ -79,3 +79,8 @@
     - Stream을 리턴하지 않음
     - collect, allMatch, cout, forEach, min, max ...
     
+### Optional
+- NPE을 효율적으로 처리하기 위한 방법
+- 리턴값으로 사용하는 것을 권장
+- primitive type일 경우 OptionalInt, OptionalLong 등을 사용할 것(기본 Optional을 사용시 Boxing, Unboxing이 발생)
+- Collection, Map, Stream Array는 기본적으로 Null을 처리할 수 있는 메서드가 존재하기 때문에 Optional을 사용할 필요가 없음
